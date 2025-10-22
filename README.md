@@ -28,3 +28,32 @@
 - **Website:** https://YOUR_GITHUB_USERNAME.github.io/working-hands-site
 
 > Tip: On the live site, use the “Request a Quote” button or call directly.
+>## 🧰 Project Structure /assets           # logo, icons, sample photos
+index.html        # single-page site
+styles.css        # styling (dark + gold brand)
+script.js         # smooth scroll, minor UI
+---
+
+## 🚀 Deploying with GitHub Pages
+1. Upload `index.html`, `styles.css`, `script.js`, and the **assets** folder to this repo’s root.  
+2. Go to **Settings → Pages**.  
+3. **Source:** `Deploy from a branch` → **Branch:** `main` → **Folder:** `/ (root)` → **Save`.  
+4. Wait ~1 minute for the green success banner with your link.  
+5. Put that link above where it says **Live Site** (replace `YOUR_GITHUB_USERNAME`).
+
+**Custom domain (optional):** In *Settings → Pages*, add your domain and follow the DNS instructions.
+
+---
+
+## 🖼️ Adding Your Photos
+Replace the placeholder images in `/assets/sample*.jpg` with your before/after shots. Keep filenames the same or update the `<img>` paths in `index.html`.
+
+---
+
+## 🔒 License
+This is a business website, not open-source software. No public license is provided.
+
+---
+
+## ✅ Credits
+Designed and built for **Working Hands Construction** — Toledo, OH. Clean work. Clear communication. From Demo to Detail.
