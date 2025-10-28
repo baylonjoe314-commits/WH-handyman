@@ -1035,3 +1035,26 @@ main {
     max-width: 70vw;
   }
 }
+/* Soft glowing pulse for the hero logo */
+.logo-overlay {
+  animation: logoFade 1.8s ease-out 0.4s forwards,
+             logoGlow 6s ease-in-out 2.2s infinite alternate;
+}
+
+@keyframes logoGlow {
+  0% {
+    filter: drop-shadow(0 6px 24px rgba(0, 0, 0, 0.5))
+            brightness(1) saturate(1);
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    filter: drop-shadow(0 0 30px rgba(196, 140, 45, 0.75))
+            brightness(1.2) saturate(1.2);
+    transform: translate(-50%, -50%) scale(1.03);
+  }
+  100% {
+    filter: drop-shadow(0 6px 24px rgba(0, 0, 0, 0.5))
+            brightness(1) saturate(1);
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
