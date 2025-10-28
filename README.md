@@ -1,59 +1,59 @@
-# Working-Hands-Construction
+# Working Hands Construction Website
 
-**From Demo to Detail.** Locally owned renovation and handyman company serving Toledo, Ohio and nearby areas. We specialize in **drywall repair**, **painting**, **flooring**, **trim**, and **small remodels** — combining clean, detailed work with fair pricing and reliable communication. Whether it’s patching a wall or transforming a room, we take pride in craftsmanship from demo to detail. **Licensed, insured, and trusted by Toledo homeowners.**
+**From Demo to Detail.** A polished single-page marketing site for a locally owned renovation and handyman company serving Toledo, Ohio and nearby areas.
 
-<p align="left">
-  <a href="https://YOUR_GITHUB_USERNAME.github.io/working-hands-site" target="_blank"><img alt="Live Site" src="https://img.shields.io/badge/Live%20Site-Visit-1?logo=google-chrome"></a>
-  <img alt="Made with" src="https://img.shields.io/badge/HTML-CSS-JS-1">
-  <img alt="Location" src="https://img.shields.io/badge/Toledo-OH-1">
-</p>
+Visit the live site by enabling GitHub Pages for this repository (Settings → Pages) or by running a local static server.
 
 ---
 
-## 📍 Services
-- Drywall & Finishing (patches, skim coats, texture match)
-- Interior & Exterior Painting (walls, ceilings, trim, decks/fences)
-- Flooring Installation (LVP/laminate, baseboards, transitions)
-- Trim & Carpentry (base, casing, crown, wainscoting, paneling updates)
-- Repairs & Punch Lists (rental turns, inspection items)
-- Small Remodels (basements, baths, accent walls, built-ins)
-
-**Service Area:** Toledo, Perrysburg, Maumee, Sylvania, Oregon, and nearby communities.
-
----
-
-## 📞 Contact
-- **Phone:** (419) 944-0398  
-- **Email:** workinghands.toledo@gmail.com  
-- **Website:** https://YOUR_GITHUB_USERNAME.github.io/working-hands-site
-
-> Tip: On the live site, use the “Request a Quote” button or call directly.
->## 🧰 Project Structure /assets           # logo, icons, sample photos
-index.html        # single-page site
-styles.css        # styling (dark + gold brand)
-script.js         # smooth scroll, minor UI
----
-
-## 🚀 Deploying with GitHub Pages
-1. Upload `index.html`, `styles.css`, `script.js`, and the **assets** folder to this repo’s root.  
-2. Go to **Settings → Pages**.  
-3. **Source:** `Deploy from a branch` → **Branch:** `main` → **Folder:** `/ (root)` → **Save`.  
-4. Wait ~1 minute for the green success banner with your link.  
-5. Put that link above where it says **Live Site** (replace `YOUR_GITHUB_USERNAME`).
-
-**Custom domain (optional):** In *Settings → Pages*, add your domain and follow the DNS instructions.
+## 🧭 Features at a Glance
+- **Hero section with CTA** highlighting licensing, insurance, and direct phone link.
+- **Service overview cards** that make drywall, painting, and remodel capabilities easy to scan.
+- **Recent work gallery** with placeholders you can replace with your own before/after photos.
+- **Testimonials and trust badges** to build credibility and reinforce referrals.
+- **Service area map** with a stylized coverage graphic for quick visual context.
+- **Lead capture form** (Formspree-ready) with a honeypot field to help reduce spam.
+- **Responsive navigation** featuring a sticky header and mobile menu toggle.
 
 ---
 
-## 🖼️ Adding Your Photos
-Replace the placeholder images in `/assets/sample*.jpg` with your before/after shots. Keep filenames the same or update the `<img>` paths in `index.html`.
+## 📂 Project Structure
+```
+/
+├── index.html              # Main single-page site
+├── styles.css              # Global styling, layout, and responsive rules
+├── script.js               # Mobile nav toggle, year update, spam guard
+└── assets/
+    └── hero-placeholder.svg # Replace with your own hero imagery if desired
+```
+
+Add your project images to the `assets/` folder and update the `work` section captions or background URLs in `styles.css` as needed.
 
 ---
 
-## 🔒 License
-This is a business website, not open-source software. No public license is provided.
+## 🚀 Run Locally
+```bash
+# Using Python 3
+python -m http.server 8000
+# Then open http://localhost:8000 in your browser
+```
+
+Any static server will work — deploy via GitHub Pages, Netlify Drop, Vercel, or your host of choice.
 
 ---
 
-## ✅ Credits
-Designed and built for **Working Hands Construction** — Toledo, OH. Clean work. Clear communication. From Demo to Detail.
+## 🔧 Customize
+- Update the `form` action in `index.html` with your preferred form handler endpoint.
+- Swap the placeholder SVG with a project photo and adjust the color palette in `styles.css` to match your branding.
+- Add analytics, chat widgets, or scheduling tools by dropping their scripts before the closing `</body>` tag.
+
+---
+
+## 📞 Contact Info (defaults shown)
+- **Phone:** (419) 944-0398
+- **Email:** workinghands.toledo@gmail.com
+- **Service Area:** Toledo, Perrysburg, Maumee, Sylvania, Oregon, Rossford, Waterville
+
+---
+
+© <span id="year"></span> Working Hands Construction. Clean work. Clear communication. From Demo to Detail.
