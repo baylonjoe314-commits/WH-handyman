@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Modern painted living room</title>
+  <desc id="desc">Abstract illustration of a painted interior accent wall</desc>
+  <rect width="800" height="500" fill="#1b1b1f"/>
+  <rect x="100" y="80" width="600" height="340" fill="#2f2f38" rx="30"/>
+  <rect x="150" y="130" width="220" height="220" fill="#f9b233" rx="26"/>
+  <rect x="420" y="130" width="230" height="220" fill="#f4f4f6" rx="20"/>
+  <rect x="450" y="160" width="80" height="160" fill="#d8dde5" rx="12"/>
+  <rect x="550" y="160" width="70" height="160" fill="#d8dde5" rx="12"/>
+  <text x="150" y="420" fill="#f4f4f6" font-family="'Segoe UI', Arial, sans-serif" font-size="44" font-weight="700">Fresh Paint</text>
+</svg>

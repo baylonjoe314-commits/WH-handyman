@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 40" role="img" aria-labelledby="title desc">
+  <title id="title">Working Hands Construction Logo</title>
+  <desc id="desc">Stylized initials WH with construction motif</desc>
+  <rect width="160" height="40" rx="6" fill="#1b1b1f"/>
+  <g fill="none" stroke-width="4" stroke="#f9b233" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 10v20l10-12 10 12V10"/>
+    <path d="M70 10v20m0-10h14m0-10v20"/>
+  </g>
+  <text x="100" y="26" fill="#f9b233" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600">Working Hands</text>
+</svg>

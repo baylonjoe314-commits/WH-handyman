@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Custom trim installation</title>
+  <desc id="desc">Abstract illustration of trim and flooring upgrade</desc>
+  <rect width="800" height="500" fill="#1b1b1f"/>
+  <rect x="80" y="80" width="640" height="260" fill="#2d2d34" rx="20"/>
+  <path d="M80 320h640" stroke="#f9b233" stroke-width="24"/>
+  <rect x="140" y="140" width="520" height="140" fill="#f4f4f6" rx="16"/>
+  <path d="M160 160h200v100H160z" fill="#d8dde5"/>
+  <path d="M420 160h220v100H420z" fill="#d8dde5"/>
+  <text x="120" y="420" fill="#f9b233" font-family="'Segoe UI', Arial, sans-serif" font-size="44" font-weight="700">Trim &amp; Floors</text>
+</svg>

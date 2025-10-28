@@ -1,4 +1,4 @@
-# Working-Hands-Construction
+# Working Hands Construction
 
 **From Demo to Detail.** Locally owned renovation and handyman company serving Toledo, Ohio and nearby areas. We specialize in **drywall repair**, **painting**, **flooring**, **trim**, and **small remodels** — combining clean, detailed work with fair pricing and reliable communication. Whether it’s patching a wall or transforming a room, we take pride in craftsmanship from demo to detail. **Licensed, insured, and trusted by Toledo homeowners.**
 
@@ -23,30 +23,59 @@
 ---
 
 ## 📞 Contact
-- **Phone:** (419) 944-0398  
-- **Email:** workinghands.toledo@gmail.com  
-- **Website:** https://YOUR_GITHUB_USERNAME.github.io/working-hands-site
+- **Phone:** (419) 944-0398
+- **Email:** workinghands.toledo@gmail.com
+- **Website:** https://workinghandsconstruction.com
 
 > Tip: On the live site, use the “Request a Quote” button or call directly.
->## 🧰 Project Structure /assets           # logo, icons, sample photos
+
+---
+
+## 🧰 Project Structure
+```
+/assets           # logo + vector placeholders
 index.html        # single-page site
 styles.css        # styling (dark + gold brand)
-script.js         # smooth scroll, minor UI
+script.js         # smooth scroll, mobile nav, helpers
+```
+
+- Replace the `assets/sample*.svg` files with project photos (maintain file names or update the `<img>` paths in `index.html`).
+- Update the `Formspree` endpoint in `index.html` if you prefer a different form handler.
+
 ---
 
 ## 🚀 Deploying with GitHub Pages
-1. Upload `index.html`, `styles.css`, `script.js`, and the **assets** folder to this repo’s root.  
-2. Go to **Settings → Pages**.  
-3. **Source:** `Deploy from a branch` → **Branch:** `main` → **Folder:** `/ (root)` → **Save`.  
-4. Wait ~1 minute for the green success banner with your link.  
-5. Put that link above where it says **Live Site** (replace `YOUR_GITHUB_USERNAME`).
+GitHub Actions now publishes the site for you whenever you push to `main`.
 
-**Custom domain (optional):** In *Settings → Pages*, add your domain and follow the DNS instructions.
+1. Push your latest changes to the `main` branch (or merge a pull request).
+2. In **Settings → Pages**, set the source to **GitHub Actions** the first time you enable Pages.
+3. The `Deploy static site` workflow will build and deploy your files — wait for the green checkmark.
+4. Copy the **Live** URL from the workflow run or from *Settings → Pages* and update the badge link above (replace `YOUR_GITHUB_USERNAME`).
+
+**Custom domain (optional):** In *Settings → Pages*, add your domain (for example, `workinghandsconstruction.com`) and follow the DNS instructions.
+
+### 🌐 Configure `workinghandsreno.com`
+Follow these steps if you want the site to live at `https://workinghandsreno.com`.
+
+1. Open **Settings → Pages** and enter `workinghandsreno.com` in the **Custom domain** field. Click **Save** and ensure **Enforce HTTPS** remains checked after GitHub verifies the domain.
+2. Add (or confirm) the `CNAME` file in the repository root so Pages knows your domain:
+   ```bash
+   echo "workinghandsreno.com" > CNAME
+   ```
+   Commit and push the change so the workflow redeploys with the domain file.
+3. Update your DNS provider with the GitHub Pages records:
+   - **A records for the apex (`workinghandsreno.com`):**
+     - `185.199.108.153`
+     - `185.199.109.153`
+     - `185.199.110.153`
+     - `185.199.111.153`
+   - **CNAME for `www.workinghandsreno.com`:** point to `<your-github-username>.github.io`
+4. Wait for DNS to propagate (it can take up to 24 hours) and rerun the deployment if prompted. Once the green checkmark appears in the latest **Deploy static site** workflow, visit both `https://workinghandsreno.com` and `https://www.workinghandsreno.com` to confirm HTTPS is active.
 
 ---
 
 ## 🖼️ Adding Your Photos
-Replace the placeholder images in `/assets/sample*.jpg` with your before/after shots. Keep filenames the same or update the `<img>` paths in `index.html`.
+Replace the placeholder images in `/assets` with your before/after shots. Keep filenames the same or update the `<img>` paths in `index.html`.
 
 ---
 

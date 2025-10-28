@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Drywall repair in progress</title>
+  <desc id="desc">Abstract illustration of drywall panel being installed</desc>
+  <defs>
+    <linearGradient id="grad" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#2d2d34"/>
+      <stop offset="100%" stop-color="#1b1b1f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#grad)"/>
+  <rect x="120" y="140" width="560" height="320" fill="#f4f4f6" rx="12"/>
+  <rect x="180" y="180" width="150" height="220" fill="#d8dde5"/>
+  <rect x="410" y="180" width="150" height="220" fill="#d8dde5"/>
+  <path d="M120 320h560" stroke="#f9b233" stroke-width="18" stroke-linecap="round"/>
+  <text x="150" y="120" fill="#f9b233" font-family="'Segoe UI', Arial, sans-serif" font-size="40" font-weight="700">Drywall Finish</text>
+</svg>
