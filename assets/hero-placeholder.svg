@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Renovation project placeholder</title>
+  <desc id="desc">Abstract geometric illustration representing a remodeled interior space.</desc>
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d8a047" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#1b2434" stop-opacity="0.9" />
+    </linearGradient>
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="4" />
+    </pattern>
+  </defs>
+  <rect width="800" height="1000" fill="#0f1723" />
+  <rect width="800" height="1000" fill="url(#grid)" />
+  <path d="M80 120 L720 60 L720 520 L80 580 Z" fill="rgba(255, 255, 255, 0.05)" />
+  <path d="M120 360 L520 300 L520 880 L120 920 Z" fill="url(#gradient)" opacity="0.6" />
+  <path d="M520 300 L720 260 L720 740 L520 780 Z" fill="rgba(255,255,255,0.15)" opacity="0.5" />
+  <path d="M520 520 L640 500 L640 860 L520 880 Z" fill="#131a26" opacity="0.8" />
+  <circle cx="240" cy="440" r="110" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="8" />
+  <circle cx="240" cy="440" r="40" fill="#d8a047" opacity="0.35" />
+  <rect x="180" y="640" width="420" height="18" rx="9" fill="rgba(255,255,255,0.2)" />
+  <rect x="180" y="700" width="380" height="18" rx="9" fill="rgba(255,255,255,0.18)" />
+  <rect x="180" y="760" width="320" height="18" rx="9" fill="rgba(255,255,255,0.15)" />
+</svg>
